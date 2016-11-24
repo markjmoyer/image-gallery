@@ -1,0 +1,80 @@
+{
+    "images": [{
+        "altTag": "Leopard Gecko",
+        "caption": "Leopard Gecko",
+        "caption_text": "Crazy, adorable, clumsy, and absolutely lovable reptiles.",
+        "filename": "gallery2.jpg",
+        "height": 200,
+        "width": 200,
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery7.jpg"
+        }, {
+        "altTag": "Hypomelanistic Carrot-Tail Baldy",
+        "caption": "Hypomelanistic Carrot-Tail Baldy",
+        "caption_text": "Largely yellow that turns to splotches of ornage at tail base then white with scattered spots.",
+        "filename": "gallery2.jpg",
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery2.jpg"
+        }, {
+        "altTag": "RAPTOR",
+        "caption": "RAPTOR",
+        "caption_text": "A large acronym for this strain of leopard gecko, no doubt.",
+        "filename": "gallery3.jpg",
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery3.jpg"
+        }, {
+        "altTag": "Marble Eye",
+        "caption": "Lavender Stripe",
+        "caption_text": "",
+        "filename": "gallery5.jpg",
+        "height": 200,
+        "width": 200,
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery10.jpg"
+        }, {
+        "altTag": "Normal Leopard Gecko",
+        "caption": "Normal Leopard Gecko",
+        "caption_text": "None",
+        "filename": "gallery5.jpg",
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery5.jpg"
+        }, {
+        "altTag": "Leopard Gecko Skin",
+        "caption": "Leopard Gecko Skin",
+        "caption_text": "Dimples, dimples and more dimples...",
+        "filename": "gallery6.jpg",
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery6.jpg"
+        }, {
+        "altTag": "Trempor",
+        "caption": "Trempor",
+        "caption_text": "They were the first strain of albino Leopard Gecko discovered, and are also the most common of the albinos.",
+        "filename": "gallery7.jpg",
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery7.jpg"
+        }, {
+        "altTag": "Sunglow",
+        "caption": "Tangerine Tornado",
+        "caption_text": "Developed in Canada by The Urban Gecko, exhibits large amounts of red pigment on the head",
+        "filename": "gallery8.jpg",
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery8.jpg"
+        }, {
+        "altTag": "Super Typhoon",
+        "caption": "G-Project",
+        "caption_text": "The “G Project” started in 2006 with the quest to make “greener” looking leopard geckos. By SaSoBek Reptiles.",
+        "filename": "gallery9.jpg",
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery9.jpg"
+        }, {
+        "caption": "Hypomelanistic Carrot-Tail Baldy",
+        "caption_text": "Largely yellow that turns to splotches of ornage at tail base then white with scattered spots.",
+        "filename": "gallery2.jpg",
+        "altTag": "Hypomelanistic Carrot-Tail Baldy",
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery2.jpg"
+        }, {
+        "caption": "Mack Snow",
+        "caption_text": "None",
+        "filename": "gallery6.jpg",
+        "altTag": "Mack Snow",
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery6.jpg"
+        }, {
+        "caption": "TUG Snow",
+        "caption_text": "They were the first strain of albino Leopard Gecko discovered, and are also the most common of the albinos.",
+        "filename": "gallery7.jpg",
+        "altTag": "Trempor",
+        "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery7.jpg"
+        }
+    ]
+}

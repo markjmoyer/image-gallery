@@ -1,0 +1,33 @@
+{
+  "name": "image-gallery",
+  "version": "0.1.21",
+  "authors": [
+    "Mark J Moyer <mark@markjmoyer.com>"
+  ],
+  "description": "Pur CSS3 Image Gallery",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "nascar",
+    "article-page"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.markjmoyer.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "2.8.3",
+    "sortable": "~0.6.0"
+  },
+  "devDependencies": {
+  }
+}

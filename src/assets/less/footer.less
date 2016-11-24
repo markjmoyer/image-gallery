@@ -1,0 +1,323 @@
+
+// General layout overrides
+
+.@{title}{
+
+    .row div[class*=col-]:last-child {
+        margin: 0;
+    }
+
+    .container {
+        margin: 0 auto;
+        padding: 0;
+}
+
+    section {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        // background-color: #2b2b2b;
+
+            .footer-logo {
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+
+                h3 {
+                    text-align: center;
+                    display: block;
+                    overflow: hidden;
+                    margin: 15px 20px 0;
+                    //background: url('../../assets/img/footer-logo.png');
+                    //background-repeat: no-repeat;
+                    //background-position: center;
+
+                    span {
+                        position: relative;
+                        display: inline-block;
+                        vertical-align: middle;
+                        line-height: 1;
+
+                        &:before, &:after {
+                            content: "";
+                            position: absolute;
+                            top: 50%;
+                            height: 1px;
+                            background: #757575;
+                            width: 99999px;
+                        }
+
+                        &:before {
+                            left: 100%;
+                            margin-left: 90px;
+                        }
+
+                        &:after {
+                            right: 100%;
+                            margin-right: 90px;
+                        }
+                    }
+                }
+            }
+
+        .footer-list-container {
+            padding: 0 20px;
+            overflow: hidden;
+
+            .footer-column {
+                width: 20%;
+                float: left;
+
+                ul {
+
+                    li {
+                        font-family: @font-stainless-regular;
+                        padding: 5px 0;
+
+                        &:first-child {
+                            color: #000000;
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            //text-shadow: 1px 1px #000000;
+                        }
+
+                        a {
+                            display: block;
+                            color: #000000;
+                            -webkit-transition: all 0.1s linear;
+                            -moz-transition: all 0.1s linear;
+                            -o-transition: all 0.1s linear;
+                            transition: all 0.1s linear;
+                            font-family: @font-stainless-regular;
+                            font-size: 12px;
+                            line-height: 15px;
+                            text-decoration: none;
+                            padding: 0;
+
+                            &:hover {
+                                color: #ffc400;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footer-column.social-media {
+                margin-top: 7px;
+
+                ul {
+                    margin-top: 0;
+                    margin-bottom: 0;
+
+                    &:first-child {
+                        margin-top: 5px;
+                    }
+
+                    li {
+                        font-family: @font-stainless-regular;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        //text-shadow: 1px 1px #000000;
+                        padding: 5px 0 5px;
+
+                        a {
+                            display: block;
+                            color: #000000;
+                            -webkit-transition: all 0.1s linear;
+                            -moz-transition: all 0.1s linear;
+                            -o-transition: all 0.1s linear;
+                            transition: all 0.1s linear;
+
+
+                            span {
+                                position: relative;
+                                top: -2px;
+                                display: inline-block;
+                                vertical-align: middle;
+                                width: 25px;
+                                height: 25px;
+                                padding-right: 20px;
+                                background: url('../../assets/img/social-icons.png');
+                                background-repeat: no-repeat;
+
+                                &.facebook { background-position: -4px -3px; }
+                                &.twitter { background-position: -4px -33px; }
+                                &.youtube { background-position: -4px -62px; }
+                                &.pinterest { background-position: -4px -89px; }
+                                &.googleplus { background-position: -4px -116px; }
+                                &.instagram { background-position: -4px -146px; }
+                            }
+                        }
+
+                        a:hover {
+                            color: #ffc400;
+                        }
+                    }
+                }
+            }
+        }
+
+        .disclaimer-container {
+            color: #444444;
+            padding: 0 20px;
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 10px;
+                line-height: 14px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+// Tablet-specific layout overrides
+
+.tablet{
+    .@{title}{
+
+        .nascar-footer-logo {
+
+            h2 {
+                margin-left: 20px;
+                margin-right: 20px;
+
+                span {
+
+                    &:before {
+                        margin-left: 70px;
+                    }
+
+                    &:after {
+                        margin-right: 70px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// Mobile-specific layout overrides
+
+.mobile{
+    .@{title}{
+
+        footer {
+
+            .row.divider {
+                border-top: 1px solid #777777;
+            }
+
+            .row div[class*=col-]:last-child {
+                margin: 0 auto;
+            }
+
+            .nascar-footer-logo {
+
+                h3 {
+                    margin-left: 5px;
+                    margin-right: 5px;
+
+                    span {
+
+                        &:before, &:after {
+
+                        }
+
+                        &:before {
+                            margin-left: 70px;
+                        }
+
+                        &:after {
+                            margin-right: 70px;
+                        }
+                    }
+                }
+            }
+
+        .footer-list-container {
+            padding: 0 5px;
+
+            .footer-column {
+                float: none;
+                width: 100%;
+
+                ul {
+                    margin-top: 0px;
+
+                    li {
+                        text-align: center;
+                        padding: 4px 0;
+
+                        &:first-child {
+                            font-size: 18px;
+                        }
+
+                        &:last-child {
+                            margin-bottom: 22px;
+                        }
+
+                        a {
+                            width: 190px;
+                            margin: 0 auto;
+                            padding: 0;
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+
+    .footer-column.social-media {
+        width: 100%;
+        margin-bottom: 20px;
+        overflow: hidden;
+        border-bottom: 1px solid #666666;
+
+        ul {
+            float: left;
+            width: 50%;
+
+            &:first-child {
+                margin-top: 0;
+            }
+
+            li {
+                text-align: left;
+                padding-left: 0px;
+
+                &:last-child {
+                    margin-bottom: 10px;
+                }
+
+                a {
+                    font-size: 14px;
+                    width: 100%;
+                    line-height: 36px;
+                }
+            }
+        }
+    }
+
+    .disclaimer-container {
+        width: 290px;
+        margin: 0 auto;
+        padding: 0 15px;
+
+        p {
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            padding: 0 14px;
+            margin-top: 20px;
+        }
+    }
+
+    }
+}
+}
