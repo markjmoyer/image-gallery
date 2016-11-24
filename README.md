@@ -1,4 +1,4 @@
-# HTML5 Template (Generator)
+# HTML5 DYNAMIC IMAGE GALLERY - JSON FED
 
 
 ## Project Dependencies

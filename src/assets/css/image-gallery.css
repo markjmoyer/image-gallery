@@ -927,8 +927,8 @@ body .image-gallery ol {
 }
 .image-gallery .gallery .blur-background {
   background-color: #000000;
-  bottom: 20px;
-  height: 200px;
+  bottom: 19px;
+  height: 201px;
   left: 20px;
   opacity: .6;
   position: absolute;

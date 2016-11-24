@@ -4,8 +4,6 @@
         "caption": "Leopard Gecko",
         "caption_text": "Crazy, adorable, clumsy, and absolutely lovable reptiles.",
         "filename": "gallery2.jpg",
-        "height": 200,
-        "width": 200,
         "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery7.jpg"
         }, {
         "altTag": "Hypomelanistic Carrot-Tail Baldy",
@@ -24,8 +22,6 @@
         "caption": "Lavender Stripe",
         "caption_text": "",
         "filename": "gallery5.jpg",
-        "height": 200,
-        "width": 200,
         "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery10.jpg"
         }, {
         "altTag": "Normal Leopard Gecko",
@@ -75,6 +71,5 @@
         "filename": "gallery7.jpg",
         "altTag": "Trempor",
         "imageURL": "http://media.markjmoyer.com/css3-gallery/gallery7.jpg"
-        }
-    ]
+    }]
 }
