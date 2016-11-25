@@ -203,66 +203,8 @@
 /*
  *******************************************************************************
  * DO NOT MAKE PROJECT-SPECIFIC MODIFICATIONS TO THIS FILE.
- * ALL CHANGES TO THIS FILE SHOULD FIRST BE MADE IN THE NASCAR-STYLE-GUIDE
- * PROJECT IN THE FILE OF THE SAME NAME.
  *******************************************************************************
  */
-/* NASCAR Colors */
-.gold {
-  color: #ffd659;
-}
-.chase-gold {
-  color: #ffd800;
-}
-.blue {
-  color: #0079c2;
-}
-.red {
-  color: #ef3d42;
-}
-.orange {
-  color: #df6726;
-}
-.magenta {
-  color: #b93292;
-}
-.green {
-  color: #00853e;
-}
-.green-l1 {
-  color: #6cb33e;
-}
-.green-m1 {
-  color: #33ad96;
-}
-/* Backgrounds */
-.bg-gold {
-  background-color: #ffd659;
-}
-.bg-chase-gold {
-  background-color: #ffd800;
-}
-.bg-blue {
-  background-color: #0079c2;
-}
-.bg-red {
-  background-color: #ef3d42;
-}
-.bg-orange {
-  background-color: #df6726;
-}
-.bg-green {
-  background-color: #00853e;
-}
-.bg-green-l1 {
-  background-color: #6cb33e;
-}
-.bg-green-m1 {
-  background-color: #33ad96;
-}
-.bg-magenta {
-  background-color: #b93292;
-}
 /* Greyscale Colors */
 .black {
   color: #000000;
@@ -290,153 +232,6 @@
 }
 .white {
   color: #ffffff;
-}
-/* Backgrounds */
-.bg-black {
-  background-color: #000000;
-}
-.bg-grey-d1 {
-  background-color: #353535;
-}
-.bg-grey-d2 {
-  background-color: #2b2b2b;
-}
-.bg-grey-d3 {
-  background-color: #0a0a0a;
-}
-.bg-grey {
-  background-color: #3c3c3c;
-}
-.bg-grey-l1 {
-  background-color: #787878;
-}
-.bg-grey-l2 {
-  background-color: #e5e5e5;
-}
-.bg-grey-l3 {
-  background-color: #efefef;
-}
-.bg-white {
-  background-color: #ffffff;
-}
-/* Borders */
-.bd-grey-l2 {
-  border: 1px solid #e5e5e5;
-}
-/* Full Greyscale Palette */
-.grey-95 {
-  color: #050505;
-}
-.grey-90 {
-  color: #0b0b0b;
-}
-.grey-85 {
-  color: #101010;
-}
-.grey-80 {
-  color: #151515;
-}
-.grey-75 {
-  color: #1a1a1a;
-}
-.grey-70 {
-  color: #202020;
-}
-.grey-65 {
-  color: #252525;
-}
-.grey-60 {
-  color: #2a2a2a;
-}
-.grey-55 {
-  color: #303030;
-}
-.grey-50 {
-  color: #353535;
-}
-.grey-45 {
-  color: #494949;
-}
-.grey-40 {
-  color: #5d5d5d;
-}
-.grey-35 {
-  color: #727272;
-}
-.grey-30 {
-  color: #868686;
-}
-.grey-25 {
-  color: #9a9a9a;
-}
-.grey-20 {
-  color: #aeaeae;
-}
-.grey-15 {
-  color: #c2c2c2;
-}
-.grey-10 {
-  color: #d7d7d7;
-}
-.grey-05 {
-  color: #ebebeb;
-}
-.bg-grey-95 {
-  background-color: #050505;
-}
-.bg-grey-90 {
-  background-color: #0b0b0b;
-}
-.bg-grey-85 {
-  background-color: #101010;
-}
-.bg-grey-80 {
-  background-color: #151515;
-}
-.bg-grey-75 {
-  background-color: #1a1a1a;
-}
-.bg-grey-70 {
-  background-color: #202020;
-}
-.bg-grey-65 {
-  background-color: #252525;
-}
-.bg-grey-60 {
-  background-color: #2a2a2a;
-}
-.bg-grey-55 {
-  background-color: #303030;
-}
-.bg-grey-50 {
-  background-color: #353535;
-}
-.bg-grey-45 {
-  background-color: #494949;
-}
-.bg-grey-40 {
-  background-color: #5d5d5d;
-}
-.bg-grey-35 {
-  background-color: #727272;
-}
-.bg-grey-30 {
-  background-color: #868686;
-}
-.bg-grey-25 {
-  background-color: #9a9a9a;
-}
-.bg-grey-20 {
-  background-color: #aeaeae;
-}
-.bg-grey-15 {
-  background-color: #c2c2c2;
-}
-.bg-grey-10 {
-  background-color: #d7d7d7;
-}
-.bg-grey-05 {
-  background-color: #ebebeb;
 }
 /*
  *******************************************************************************
@@ -548,7 +343,7 @@
    */
 }
 .image-gallery .row {
-  width: 1060px;
+  width: 1024px;
   min-height: 1px;
   clear: both;
   margin: 0 auto;
@@ -578,7 +373,7 @@
   margin: 0;
 }
 .image-gallery .row .col-thirds {
-  width: calc(340px);
+  width: calc(328px);
   margin: 0;
 }
 .image-gallery .row .col-1 {
@@ -593,7 +388,7 @@
 }
 .image-gallery .container {
   min-width: calc(300px);
-  max-width: 1060px;
+  max-width: 1024px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -713,7 +508,6 @@
   font-family: "Stainless-Regular", "Arial", "Helvetica", sans-serif;
   font-size: 11px;
   line-height: 15px;
-  color: #ffd659;
 }
 .draft h6 {
   font-family: "Stainless-Regular-Italic", "Arial", "Helvetica", sans-serif;
@@ -799,7 +593,7 @@
   background-color: #ffffff;
 }
 .draft table.table tbody tr:nth-child(even) {
-  background-color: #d7d7d7;
+  background-color: #0a0a0a;
 }
 .draft table.table tbody tr td {
   color: #000000;
@@ -807,7 +601,7 @@
   font-size: 16px;
 }
 .draft table.table tbody tr td a {
-  color: #0079c2;
+  color: blue;
 }
 /* Animations CSS3 */
 /*
@@ -836,7 +630,7 @@ body .image-gallery section {
   margin: 0;
 }
 body .image-gallery a {
-  color: #0079c2;
+  color: blue;
 }
 body .image-gallery a.more {
   display: block;
@@ -846,7 +640,7 @@ body .image-gallery a.more {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
-  color: #0079c2;
+  color: red;
 }
 body .image-gallery a.more:hover {
   text-decoration: underline;
@@ -870,18 +664,24 @@ body .image-gallery ol {
   margin: 12px 10px 0 0;
 }
 .image-gallery .gallery {
+  margin: 0 auto 70px;
   overflow: hidden;
+  width: 100%;
 }
 .image-gallery .gallery figure {
-  background-color: #0a0a0a;
+  background-color: #353535;
   border: 1px solid #333333;
   float: left;
   height: 200px;
-  margin: 11px;
+  margin: 10px 0;
   overflow: hidden;
   padding: 20px;
   position: relative;
   width: 200px;
+}
+.image-gallery .gallery figure:nth-child(odd),
+.image-gallery .gallery figure:nth-child(even) {
+  margin-right: 5px;
 }
 .image-gallery .gallery img {
   display: block;
@@ -914,7 +714,7 @@ body .image-gallery ol {
   font-size: 18px;
   line-height: 22px;
   margin: 0;
-  padding: 80px 15px 0;
+  padding: 60px 20px 0;
   text-transform: uppercase;
 }
 .image-gallery .gallery figcaption p.caption-text {
@@ -934,6 +734,11 @@ body .image-gallery ol {
   position: absolute;
   width: 201px;
   z-index: 5;
+}
+.image-gallery p.copyright {
+  font-size: 10.5px;
+  margin: 0 0 30px;
+  text-align: center;
 }
 .image-gallery .row div[class*=col-]:last-child {
   margin: 0;
