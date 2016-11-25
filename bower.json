@@ -1,8 +1,8 @@
 {
   "name": "image-gallery",
-  "version": "0.1.22",
+  "version": "0.1.23-1",
   "authors": [
-    "Mark J Moyer <mark@markjmoyer.com>"
+    "Mark J. Moyer <mark@markjmoyer.com>"
   ],
   "description": "JSON Feed Image Gallery",
   "main": "index.html",
