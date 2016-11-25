@@ -684,8 +684,11 @@ body .image-gallery ol {
   margin-right: 5px;
 }
 .image-gallery .gallery img {
+  border: 1px solid #ff6;
   display: block;
+  height: 199px;
   margin: 0 auto;
+  width: 199px;
 }
 .image-gallery .gallery figcaption {
   cursor: pointer;

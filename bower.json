@@ -1,10 +1,10 @@
 {
   "name": "image-gallery",
-  "version": "0.1.22",
+  "version": "0.1.23-1",
   "authors": [
-    "Mark J Moyer <mark@markjmoyer.com>"
+    "Mark J. Moyer <mark@markjmoyer.com>"
   ],
-  "description": "Pur CSS3 Image Gallery",
+  "description": "JSON Feed Image Gallery",
   "main": "index.html",
   "moduleType": [
     "node"

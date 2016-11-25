@@ -1,9 +1,9 @@
 {
   "name": "image-gallery",
-  "version": "0.1.22",
-  "title": "Pure CSS3 Image Gallery",
-  "description": "This is an Image Gallery with Captioned Images",
-  "keywords": "HTML5,templates",
+  "version": "0.1.23-1",
+  "title": "JSON Image Gallery",
+  "description": "JSON Feed Image Gallery",
+  "keywords": "HTML5,templates, JSON Data Image Gallery",
   "ogtype": "website",
   "ogurl": "http://www.markjmoyer.com/",
   "ogimage": "",
