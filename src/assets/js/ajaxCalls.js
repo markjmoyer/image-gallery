@@ -13,7 +13,7 @@ function getGalleryResults(images) {
         sortedImages.push(sortImage);
     });
 
-   jQuery.each(sortedImages, function(v,image) { 
+   jQuery.each(sortedImages, function(v,image) {
        var altTag = image.altTag;
        var caption = image.caption;
        var captionText = image.caption_text;
