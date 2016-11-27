@@ -11,13 +11,9 @@ var newsLetterButton = {
             $(".overlay, .modal-signup-form").fadeIn(200);
         });
 
-        //$("a.get-raceview").on("click", function () {
-            //$(".overlay, .get-raceview-modal").fadeIn(200);
-        //});
-
         // modal close click button function
         $(".overlay").on("click", function () {
-            //$('.overlay, .features-modal, .get-raceview-modal').fadeOut(200);
+            $('.overlay, .modal-signup-form').fadeOut(200);
         });
     }
 };
