@@ -1,0 +1,74 @@
+.overlay {
+    background-color: @black;
+    height: 100%;
+    opacity: .7;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.modal-signup-form {
+    background-color: @white;
+    height: 80px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 740px;
+    z-index: 2;
+
+    .newsletter-heading {
+        float: left;
+        font-family: @font-scout-light;
+
+        h3 {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 24px;
+            margin-top: 0;
+            text-align: right;
+        }
+    }
+
+    .signup-form {
+        float: right;
+        font-family: @font-scout-light;
+        overflow: hidden;
+        padding-top: 10px;
+
+        form {
+            padding-top: 10px;
+
+            input {
+                border-top: 1px solid #ccc;
+                border-left: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                border-right: none;
+                height: 25px;
+                margin: 0 -4px 10px 0;
+                padding-left: 10px;
+                width: 220px;
+            }
+            a {
+                border-top: 1px solid #ccc;
+                border-right: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                border-left: none;
+                text-decoration: none;
+                &.signup {
+                    background-color: #ff6;
+                    border: 1px solid #262626;
+                    color: #000000;
+                    height: 30px;
+                    padding: 5px 10px;
+                    width: 80px;
+                }
+            }
+        }
+    }
+}

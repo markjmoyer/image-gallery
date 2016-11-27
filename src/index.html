@@ -15,7 +15,7 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
-
+<div class="overlay"></div>
     <main
         class="@@name"
         role="main"
@@ -24,9 +24,11 @@
         itemtype="http://schema.org/WPFooter">
 
         <div class="container">
-            <h1>Dynamic JSON Image Gallery</h1>
-            <div class="galleryDataTable"></div>
+        <header>
+            <h1>Dynamic JSON Image Gallery<button>Wanna stay in touch?</button></h1>
 
+        </header>
+            <div class="galleryDataTable"></div>
             <!-- include: 'includes/components/gallery.html' -->
         </div>
             <!-- include: 'includes/etc/copyright.html' -->
@@ -35,5 +37,6 @@
     <!-- injector:js -->
     <!-- endinjector -->
 
+    <!-- include: 'includes/components/newsletter.html' -->
 </body>
 </html>
