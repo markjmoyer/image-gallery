@@ -343,7 +343,7 @@
    */
 }
 .image-gallery .row {
-  width: 1024px;
+  width: 990px;
   min-height: 1px;
   clear: both;
   margin: 0 auto;
@@ -373,7 +373,7 @@
   margin: 0;
 }
 .image-gallery .row .col-thirds {
-  width: calc(328px);
+  width: calc(316.66666667px);
   margin: 0;
 }
 .image-gallery .row .col-1 {
@@ -388,7 +388,7 @@
 }
 .image-gallery .container {
   min-width: calc(300px);
-  max-width: 1024px;
+  max-width: 990px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -663,12 +663,23 @@ body .image-gallery ol {
 .mobile .image-gallery a.more {
   margin: 12px 10px 0 0;
 }
-.image-gallery .gallery {
+.image-gallery .container {
+  width: 990px;
+  margin: 0 auto;
+}
+.image-gallery .container button {
+  background-color: #fff;
+  border-radius: 4px;
+  float: right;
+  margin-top: 8px;
+  padding: 10px;
+}
+.image-gallery .container .gallery {
   margin: 0 auto 70px;
   overflow: hidden;
   width: 100%;
 }
-.image-gallery .gallery figure {
+.image-gallery .container .gallery figure {
   background-color: #353535;
   border: 1px solid #333333;
   float: left;
@@ -679,18 +690,17 @@ body .image-gallery ol {
   position: relative;
   width: 200px;
 }
-.image-gallery .gallery figure:nth-child(odd),
-.image-gallery .gallery figure:nth-child(even) {
+.image-gallery .container .gallery figure:nth-child(odd),
+.image-gallery .container .gallery figure:nth-child(even) {
   margin-right: 5px;
 }
-.image-gallery .gallery img {
-  border: 1px solid #ff6;
+.image-gallery .container .gallery img {
   display: block;
   height: 199px;
   margin: 0 auto;
   width: 199px;
 }
-.image-gallery .gallery figcaption {
+.image-gallery .container .gallery figcaption {
   cursor: pointer;
   opacity: 0;
   position: absolute;
@@ -704,7 +714,7 @@ body .image-gallery ol {
   -ms-transition: all 0.45s ease-in-out;
   transition: all 0.45s ease-in-out;
 }
-.image-gallery .gallery figcaption .caption {
+.image-gallery .container .gallery figcaption .caption {
   color: #ffffff;
   height: 100%;
   position: absolute;
@@ -712,7 +722,7 @@ body .image-gallery ol {
   width: 100%;
   z-index: 10;
 }
-.image-gallery .gallery figcaption h4 {
+.image-gallery .container .gallery figcaption h4 {
   color: #ffffff;
   font-size: 18px;
   line-height: 22px;
@@ -720,15 +730,15 @@ body .image-gallery ol {
   padding: 60px 20px 0;
   text-transform: uppercase;
 }
-.image-gallery .gallery figcaption p.caption-text {
+.image-gallery .container .gallery figcaption p.caption-text {
   line-height: 16px;
   padding: 0 40px;
   text-align: center;
 }
-.image-gallery .gallery figcaption:hover {
+.image-gallery .container .gallery figcaption:hover {
   opacity: 1;
 }
-.image-gallery .gallery .blur-background {
+.image-gallery .container .gallery .blur-background {
   background-color: #000000;
   bottom: 19px;
   height: 201px;
@@ -742,6 +752,74 @@ body .image-gallery ol {
   font-size: 10.5px;
   margin: 0 0 30px;
   text-align: center;
+}
+.overlay {
+  background-color: #000000;
+  height: 100%;
+  opacity: .8;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.modal-signup-form {
+  background-color: #ffffff;
+  height: 80px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 740px;
+  z-index: 2;
+}
+.modal-signup-form .newsletter-heading {
+  float: left;
+  font-family: "Scout-Light", "Arial", "Helvetica", sans-serif;
+}
+.modal-signup-form .newsletter-heading h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.modal-signup-form .newsletter-heading p {
+  font-size: 24px;
+  margin-top: 0;
+  text-align: right;
+}
+.modal-signup-form .signup-form {
+  float: right;
+  font-family: "Scout-Light", "Arial", "Helvetica", sans-serif;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.modal-signup-form .signup-form form {
+  padding-top: 10px;
+}
+.modal-signup-form .signup-form form input {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: none;
+  height: 25px;
+  margin: 0 -4px 10px 0;
+  padding-left: 10px;
+  width: 220px;
+}
+.modal-signup-form .signup-form form a {
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: none;
+  text-decoration: none;
+}
+.modal-signup-form .signup-form form a.signup {
+  background-color: #ff6;
+  border: 1px solid #262626;
+  color: #000000;
+  height: 30px;
+  padding: 5px 10px;
+  width: 80px;
 }
 .image-gallery .row div[class*=col-]:last-child {
   margin: 0;

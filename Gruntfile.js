@@ -245,6 +245,12 @@ module.exports = function(grunt) {
               '<%= dirs.dest %>/assets/js/vendor/**/*.js',
               '<%= dirs.dest %>/assets/js/**/*.js',
               '<%= dirs.dest %>/assets/css/**/*.css'
+          ],
+          '<%= dirs.dest %>/modal-signup-form.html':
+            [
+              '<%= dirs.dest %>/assets/js/vendor/**/*.js',
+              '<%= dirs.dest %>/assets/js/**/*.js',
+              '<%= dirs.dest %>/assets/css/**/*.css'
             ]
         }
       }
