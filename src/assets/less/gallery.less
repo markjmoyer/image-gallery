@@ -22,16 +22,16 @@
       border: 1px solid #333333;
       float: left;
       height: 200px;
-      margin: 10px 0;
+      margin: 10px 4px;
       overflow: hidden;
       padding: 20px;
       position: relative;
       width: 200px;
 
-      &:nth-child(odd),
-      &:nth-child(even) {
-          margin-right: 5px;
-      }
+      //&:nth-child(odd),
+      //&:nth-child(even) {
+          //margin-right: 8px;
+      //}
     }
 
     img {
@@ -102,4 +102,27 @@
       margin: 0 0 30px;
       text-align: center;
   }
+}
+
+.tablet {
+    .@{title} {
+        .container {
+            .gallery {
+                figure {
+                    width: 206px;
+                }
+            }
+        }
+    }
+}
+
+.mobile {
+    .@{title} {
+        .container {
+            .gallery {
+                width: 320px;
+            }
+        }
+
+}
 }
