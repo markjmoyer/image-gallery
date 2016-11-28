@@ -1,5 +1,7 @@
 # HTML5 IMAGE GALLERY - JSON FED
-A doodle project that I threw together on a rainy afternnon.
+A doodle project that I threw together on a rainy afternoon.
+Just run a server (i use http-server npm package) and launch index.html from the __/dist/__
+directory.
 
 ## Project Dependencies
 
