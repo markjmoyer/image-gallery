@@ -101,54 +101,6 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: 'Stainless-Regular';
-  src: url('../fonts/Stainless-Regular/Stainless-Regular.svg') format('svg');
-  src: url('../fonts/Stainless-Regular/Stainless-Regular.eot');
-  src: url('../fonts/Stainless-Regular/Stainless-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Stainless-Regular/Stainless-Regular.woff') format('woff'), url('../fonts/Stainless-Regular/Stainless-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Stainless-Regular-Italic';
-  src: url('../fonts/Stainless-Regular-Italic/Stainless-Regular-Italic.svg') format('svg');
-  src: url('../fonts/Stainless-Regular-Italic/Stainless-Regular-Italic.eot');
-  src: url('../fonts/Stainless-Regular-Italic/Stainless-Regular-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/Stainless-Regular-Italic/Stainless-Regular-Italic.woff') format('woff'), url('../fonts/Stainless-Regular-Italic/Stainless-Regular-Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Stainless-Bold';
-  src: url('../fonts/Stainless-Bold/Stainless-Bold.svg') format('svg');
-  src: url('../fonts/Stainless-Bold/Stainless-Bold.eot');
-  src: url('../fonts/Stainless-Bold/Stainless-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Stainless-Bold/Stainless-Bold.woff') format('woff'), url('../fonts/Stainless-Bold/Stainless-Bold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Stainless-Bold-Italic';
-  src: url('../fonts/Stainless-Bold-Italic/Stainless-Bold-Italic.svg') format('svg');
-  src: url('../fonts/Stainless-Bold-Italic/Stainless-Bold-Italic.eot');
-  src: url('../fonts/Stainless-Bold-Italic/Stainless-Bold-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/Stainless-Bold-Italic/Stainless-Bold-Italic.woff') format('woff'), url('../fonts/Stainless-Bold-Italic/Stainless-Bold-Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Stainless-Black';
-  src: url('../fonts/Stainless-Black/Stainless-Black.svg') format('svg');
-  src: url('../fonts/Stainless-Black/Stainless-Black.eot');
-  src: url('../fonts/Stainless-Black/Stainless-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Stainless-Black/Stainless-Black.woff') format('woff'), url('../fonts/Stainless-Black/Stainless-Black.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Stainless-Black-Italic';
-  src: url('../fonts/Stainless-Black-Italic/Stainless-Black-Italic.svg') format('svg');
-  src: url('../fonts/Stainless-Black-Italic/Stainless-Black-Italic.eot');
-  src: url('../fonts/Stainless-Black-Italic/Stainless-Black-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/Stainless-Black-Italic/Stainless-Black-Italic.woff') format('woff'), url('../fonts/Stainless-Black-Italic/Stainless-Black-Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 .font-scout-regular {
   font-family: "Scout-Regular", "Arial", "Helvetica", sans-serif;
 }
@@ -175,24 +127,6 @@
 }
 .font-scout-black-italic {
   font-family: "Scout-Black-Italic", "Arial", "Helvetica", sans-serif;
-}
-.font-stainless-regular {
-  font-family: "Stainless-Regular", "Arial", "Helvetica", sans-serif;
-}
-.font-stainless-regular-italic {
-  font-family: "Stainless-Regular-Italic", "Arial", "Helvetica", sans-serif;
-}
-.font-stainless-bold {
-  font-family: "Stainless-Bold", "Arial", "Helvetica", sans-serif;
-}
-.font-stainless-bold-italic {
-  font-family: "Stainless-Bold-Italic", "Arial", "Helvetica", sans-serif;
-}
-.font-stainless-black {
-  font-family: "Stainless-Black", "Arial", "Helvetica", sans-serif;
-}
-.font-stainless-black-italic {
-  font-family: "Stainless-Black-Italic", "Arial", "Helvetica", sans-serif;
 }
 .font-helvetica {
   font-family: "Helvetica", "Arial", sans-serif;
@@ -481,7 +415,7 @@
 .draft h4,
 .draft h5,
 .draft h6 {
-  font-family: "Stainless-Bold-Italic", "Arial", "Helvetica", sans-serif;
+  font-family: "Scout-Bold", "Arial", "Helvetica", sans-serif;
   letter-spacing: .005px;
 }
 .draft h1 {
@@ -495,22 +429,22 @@
   text-transform: uppercase;
 }
 .draft h3 {
-  font-family: "Stainless-Regular-Italic", "Arial", "Helvetica", sans-serif;
+  font-family: "Scout-Regular", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
 .draft h4 {
-  font-family: "Stainless-Regular-Italic", "Arial", "Helvetica", sans-serif;
+  font-family: "Scout-Regular", "Arial", "Helvetica", sans-serif;
   font-size: 12px;
   line-height: 16px;
 }
 .draft h5 {
-  font-family: "Stainless-Regular", "Arial", "Helvetica", sans-serif;
+  font-family: "Scout-Regular", "Arial", "Helvetica", sans-serif;
   font-size: 11px;
   line-height: 15px;
 }
 .draft h6 {
-  font-family: "Stainless-Regular-Italic", "Arial", "Helvetica", sans-serif;
+  font-family: "Scout-Regular", "Arial", "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 16px;
 }
@@ -876,7 +810,7 @@ body .image-gallery ol {
   float: left;
 }
 .image-gallery section .footer-list-container .footer-column ul li {
-  font-family: "Stainless-Regular", "Arial", "Helvetica", sans-serif;
+  font-family: "Scout-Regular", "Arial", "Helvetica", sans-serif;
   padding: 5px 0;
 }
 .image-gallery section .footer-list-container .footer-column ul li:first-child {
@@ -891,7 +825,7 @@ body .image-gallery ol {
   -moz-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
-  font-family: "Stainless-Regular", "Arial", "Helvetica", sans-serif;
+  font-family: "Scout-Regular", "Arial", "Helvetica", sans-serif;
   font-size: 12px;
   line-height: 15px;
   text-decoration: none;
@@ -911,7 +845,7 @@ body .image-gallery ol {
   margin-top: 5px;
 }
 .image-gallery section .footer-list-container .footer-column.social-media ul li {
-  font-family: "Stainless-Regular", "Arial", "Helvetica", sans-serif;
+  font-family: "Scout-Regular", "Arial", "Helvetica", sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   padding: 5px 0 5px;
