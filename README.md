@@ -1,7 +1,7 @@
 # HTML5 IMAGE GALLERY - JSON FED
-A small project that I threw together on a rainy afternoon.
-Just run a server (i use http-server npm package) and launch index.html from the __/dist/__
-directory.
+A small project I spun up on a rainy afternoon.
+Just run a server (I use http-server, an npm package) and launch index.html from the __/dist/__
+directory. Work in src. Launch from dist.
 
 ## Project Dependencies
 
