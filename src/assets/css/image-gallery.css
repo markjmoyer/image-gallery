@@ -277,7 +277,7 @@
    */
 }
 .image-gallery .row {
-  width: 990px;
+  width: 1000px;
   min-height: 1px;
   clear: both;
   margin: 0 auto;
@@ -307,7 +307,7 @@
   margin: 0;
 }
 .image-gallery .row .col-thirds {
-  width: calc(316.66666667px);
+  width: calc(320px);
   margin: 0;
 }
 .image-gallery .row .col-1 {
@@ -322,7 +322,7 @@
 }
 .image-gallery .container {
   min-width: calc(300px);
-  max-width: 990px;
+  max-width: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -598,7 +598,7 @@ body .image-gallery ol {
   margin: 12px 10px 0 0;
 }
 .image-gallery .container {
-  width: 990px;
+  width: 1000px;
   margin: 0 auto;
 }
 .image-gallery .container button {
@@ -618,15 +618,11 @@ body .image-gallery ol {
   border: 1px solid #333333;
   float: left;
   height: 200px;
-  margin: 10px 0;
+  margin: 10px 4px;
   overflow: hidden;
   padding: 20px;
   position: relative;
   width: 200px;
-}
-.image-gallery .container .gallery figure:nth-child(odd),
-.image-gallery .container .gallery figure:nth-child(even) {
-  margin-right: 5px;
 }
 .image-gallery .container .gallery img {
   display: block;
@@ -686,6 +682,12 @@ body .image-gallery ol {
   font-size: 10.5px;
   margin: 0 0 30px;
   text-align: center;
+}
+.tablet .image-gallery .container .gallery figure {
+  width: 206px;
+}
+.mobile .image-gallery .container .gallery {
+  width: 320px;
 }
 .overlay {
   background-color: #000000;
@@ -754,239 +756,4 @@ body .image-gallery ol {
   height: 30px;
   padding: 5px 10px;
   width: 80px;
-}
-.image-gallery .row div[class*=col-]:last-child {
-  margin: 0;
-}
-.image-gallery .container {
-  margin: 0 auto;
-  padding: 0;
-}
-.image-gallery section {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
-.image-gallery section .footer-logo {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-.image-gallery section .footer-logo h3 {
-  text-align: center;
-  display: block;
-  overflow: hidden;
-  margin: 15px 20px 0;
-}
-.image-gallery section .footer-logo h3 span {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 1;
-}
-.image-gallery section .footer-logo h3 span:before,
-.image-gallery section .footer-logo h3 span:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  height: 1px;
-  background: #757575;
-  width: 99999px;
-}
-.image-gallery section .footer-logo h3 span:before {
-  left: 100%;
-  margin-left: 90px;
-}
-.image-gallery section .footer-logo h3 span:after {
-  right: 100%;
-  margin-right: 90px;
-}
-.image-gallery section .footer-list-container {
-  padding: 0 20px;
-  overflow: hidden;
-}
-.image-gallery section .footer-list-container .footer-column {
-  width: 20%;
-  float: left;
-}
-.image-gallery section .footer-list-container .footer-column ul li {
-  font-family: "Scout-Regular", "Arial", "Helvetica", sans-serif;
-  padding: 5px 0;
-}
-.image-gallery section .footer-list-container .footer-column ul li:first-child {
-  color: #000000;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-.image-gallery section .footer-list-container .footer-column ul li a {
-  display: block;
-  color: #000000;
-  -webkit-transition: all 0.1s linear;
-  -moz-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-  font-family: "Scout-Regular", "Arial", "Helvetica", sans-serif;
-  font-size: 12px;
-  line-height: 15px;
-  text-decoration: none;
-  padding: 0;
-}
-.image-gallery section .footer-list-container .footer-column ul li a:hover {
-  color: #ffc400;
-}
-.image-gallery section .footer-list-container .footer-column.social-media {
-  margin-top: 7px;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul:first-child {
-  margin-top: 5px;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul li {
-  font-family: "Scout-Regular", "Arial", "Helvetica", sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-  padding: 5px 0 5px;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul li a {
-  display: block;
-  color: #000000;
-  -webkit-transition: all 0.1s linear;
-  -moz-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul li a span {
-  position: relative;
-  top: -2px;
-  display: inline-block;
-  vertical-align: middle;
-  width: 25px;
-  height: 25px;
-  padding-right: 20px;
-  background: url('../../assets/img/social-icons.png');
-  background-repeat: no-repeat;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul li a span.facebook {
-  background-position: -4px -3px;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul li a span.twitter {
-  background-position: -4px -33px;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul li a span.youtube {
-  background-position: -4px -62px;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul li a span.pinterest {
-  background-position: -4px -89px;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul li a span.googleplus {
-  background-position: -4px -116px;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul li a span.instagram {
-  background-position: -4px -146px;
-}
-.image-gallery section .footer-list-container .footer-column.social-media ul li a:hover {
-  color: #ffc400;
-}
-.image-gallery section .disclaimer-container {
-  color: #444444;
-  padding: 0 20px;
-}
-.image-gallery section .disclaimer-container p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  line-height: 14px;
-  text-align: center;
-}
-.tablet .image-gallery .nascar-footer-logo h2 {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.tablet .image-gallery .nascar-footer-logo h2 span:before {
-  margin-left: 70px;
-}
-.tablet .image-gallery .nascar-footer-logo h2 span:after {
-  margin-right: 70px;
-}
-.mobile .image-gallery footer .row.divider {
-  border-top: 1px solid #777777;
-}
-.mobile .image-gallery footer .row div[class*=col-]:last-child {
-  margin: 0 auto;
-}
-.mobile .image-gallery footer .nascar-footer-logo h3 {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.mobile .image-gallery footer .nascar-footer-logo h3 span:before {
-  margin-left: 70px;
-}
-.mobile .image-gallery footer .nascar-footer-logo h3 span:after {
-  margin-right: 70px;
-}
-.mobile .image-gallery footer .footer-list-container {
-  padding: 0 5px;
-}
-.mobile .image-gallery footer .footer-list-container .footer-column {
-  float: none;
-  width: 100%;
-}
-.mobile .image-gallery footer .footer-list-container .footer-column ul {
-  margin-top: 0px;
-}
-.mobile .image-gallery footer .footer-list-container .footer-column ul li {
-  text-align: center;
-  padding: 4px 0;
-}
-.mobile .image-gallery footer .footer-list-container .footer-column ul li:first-child {
-  font-size: 18px;
-}
-.mobile .image-gallery footer .footer-list-container .footer-column ul li:last-child {
-  margin-bottom: 22px;
-}
-.mobile .image-gallery footer .footer-list-container .footer-column ul li a {
-  width: 190px;
-  margin: 0 auto;
-  padding: 0;
-  font-size: 16px;
-  line-height: 22px;
-}
-.mobile .image-gallery footer .footer-column.social-media {
-  width: 100%;
-  margin-bottom: 20px;
-  overflow: hidden;
-  border-bottom: 1px solid #666666;
-}
-.mobile .image-gallery footer .footer-column.social-media ul {
-  float: left;
-  width: 50%;
-}
-.mobile .image-gallery footer .footer-column.social-media ul:first-child {
-  margin-top: 0;
-}
-.mobile .image-gallery footer .footer-column.social-media ul li {
-  text-align: left;
-  padding-left: 0px;
-}
-.mobile .image-gallery footer .footer-column.social-media ul li:last-child {
-  margin-bottom: 10px;
-}
-.mobile .image-gallery footer .footer-column.social-media ul li a {
-  font-size: 14px;
-  width: 100%;
-  line-height: 36px;
-}
-.mobile .image-gallery footer .disclaimer-container {
-  width: 290px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.mobile .image-gallery footer .disclaimer-container p {
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-  padding: 0 14px;
-  margin-top: 20px;
 }
